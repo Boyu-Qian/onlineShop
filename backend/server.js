@@ -11,8 +11,10 @@ import cookieParser from "cookie-parser";
 import uploadRoutes from "./routes/uploadRoutes.js";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 const port = process.env.PORT;
+import cors from "cors";
 connectDB();
 const app = express();
+app.use(cors());
 
 /*
 body parser middleware
