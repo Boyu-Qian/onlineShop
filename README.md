@@ -1,3 +1,3 @@
 # onlineShop
 
-This website is my personal project. It will be deploy on aws in 2 days.
+This MERN project is hosted on Render.com. The link to the website: https://shop-r2dg.onrender.com/.
