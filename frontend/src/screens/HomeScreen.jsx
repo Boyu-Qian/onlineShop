@@ -26,7 +26,9 @@ const HomeScreen = () => {
         </Message>
       ) : (
         <>
-          <h1>Latest Products</h1>
+          <h1>Everything is illustration only.</h1>
+          <h1>Please do not use your real credit card to purchase.</h1>
+          
           <Row>
             {data.products.map((product) => (
               <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
