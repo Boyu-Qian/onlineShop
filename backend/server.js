@@ -21,25 +21,13 @@ app.use((req, res, next) => {
   next();
 });
 
-/*
-body parser middleware
-These Two line allow us to get email and password
-*/
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-/*
-body parser middleware
-These Two line allow us to get email and password
-*/
 
-/*
-cookie parser middleware
-One line allow us to get email and password
-*/
+app.use(express.json());
+
+app.use(express.urlencoded({ extended: true }));
+
 app.use(cookieParser());
-/*
-cookie parser middleware
-*/
+
 
 app.use("/api/products", productRoutes);
 app.use("/api/users", userRoutes);
