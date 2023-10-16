@@ -31,6 +31,8 @@ const PaymentScreen = () => {
     <FormContainer>
       <CheckoutSteps step1 step2 step3 />
       <h1>Payment Method</h1>
+      <h1>This website is using Paypal Sandbox</h1>
+      <h1>I do not get real money from anything sold on this website</h1>
       <Form onSubmit={submitHandler}>
         <Form.Group>
           <Form.Label as="legend">Select Method</Form.Label>
