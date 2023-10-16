@@ -28,6 +28,8 @@ const HomeScreen = () => {
         <>
           <h1>Everything is illustration only.</h1>
           <h1>Please do not use your real credit card to purchase.</h1>
+          <h1>The purpose of this website is for me to get hired</h1>
+          <h1>Copy Right Reserved</h1>
           
           <Row>
             {data.products.map((product) => (
